@@ -3,5 +3,33 @@ body {
     }
 h5 {font-style: italic;
 }
-body {font-family: "Spectral", 'Times New Roman', Times, serif; 
+body {font-family: "Spectral", 'Times New Roman', Times, serif; font-weight: lighter;
 } 
+h2 {text-align: center;
+}
+ol, li {line-height: 2;
+}
+a:hover {text-decoration: none;
+}
+.Section1 
+{margin-top: 30px;
+margin-bottom: 30px;
+border: 5px solid green;
+padding: 1px;
+background-color: antiquewhite; 
+}
+#titledogs {
+    background-color: antiquewhite;
+    border-bottom: 5px inset black;    
+}
+img {width: 300px;
+height: 200px;
+}
+.gallery {
+ border: 5px solid black;
+ display:flex;
+   flex-wrap: wrap; 
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+}
